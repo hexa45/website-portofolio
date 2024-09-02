@@ -1,0 +1,179 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e3fdfd;
+  /* font-weight: 400; */
+}
+
+section {
+  padding-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.href:hover {
+  color: blue !important;
+}
+/* .text-primary {
+  color: #71c9ce !important;
+  font-weight: bold !important;
+} */
+
+.btn-primary {
+  background-color: #71c9ce !important;
+  border-color: #63b5b9 !important;
+  font-weight: 500 !important;
+}
+
+.btn-primary:hover {
+  border-color: #63b5b9 !important;
+  background-color: darkcyan !important;
+  font-weight: 500 !important;
+}
+
+.navbar-tulisan-warna {
+  color: #fbffdcc2;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.navbar-warna {
+  background-color: #71c9ce !important;
+}
+
+/* .text-warna {
+  color: white;
+} */
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #e3fdfd;
+}
+h3 {
+  font-weight: 800;
+}
+.col-4 p {
+  font-weight: 500 !important;
+}
+
+.about-warna {
+  background-color: #cbf1f5;
+}
+
+.kontak-warna {
+  background-color: #cbf1f5;
+}
+
+.size-gambar {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.warna-sertifikat {
+  background-color: #a6e3e9;
+}
+
+/* Animasi */
+
+.animasi-kiri-jumbotron {
+  position: relative;
+  animation-name: animasi-kiri-jumbotron;
+  animation-duration: 5s;
+}
+
+.animasi-kanan-jumbotron {
+  position: relative;
+  animation-name: animasi-kanan-jumbotron;
+  animation-duration: 5s;
+}
+
+.animasi-bawah-profil {
+  position: relative;
+  animation-name: animasi-bawah-profil;
+  animation-duration: 4.5s;
+}
+
+@keyframes animasi-kanan-jumbotron {
+  0% {
+    color: transparent;
+    left: 1000px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes animasi-kiri-jumbotron {
+  0% {
+    color: transparent;
+    right: 1000px;
+  }
+
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes animasi-bawah-profil {
+  0% {
+    color: transparent;
+    bottom: 1000px;
+  }
+
+  100% {
+    bottom: 0px;
+  }
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.zoom {
+  position: relative;
+  animation: animasi-bawah-profil 5s;
+  transition: transform 0.7s ease-in-out !important;
+}
+
+.animate__backInDown {
+  animation-duration: 5s;
+}
+
+.animate__fadeIn {
+  animation-duration: 15s !important;
+}
+
+/* ganti ke framework animate css 
+
+.animasi-atas-tentang {
+  position: relative;
+  animation-name: atas-tentang;
+  animation-duration: 10s;
+}
+
+@keyframes atas-tentang {
+  0% {
+    top: 200px;
+  }
+   25% {
+    top: 150px;
+  }
+  50% {
+    top: 100px;
+  }
+  75% {
+    top: 50px;
+  } 
+  100% {
+    top: 0px;
+  }
+}
+*/
